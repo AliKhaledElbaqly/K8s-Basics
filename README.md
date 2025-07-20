@@ -42,7 +42,7 @@ sudo reboot
 ## Step 2: Install AWS CLI
 
 > ℹ️ **Explanation:**  
-> You’ll need the AWS CLI to interact with AWS services (like EKS, EFS, IAM) programmatically from your terminal.
+> AWS CLI interact with AWS services (like EKS, EFS, IAM) programmatically from your terminal.
 
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -56,7 +56,7 @@ aws –version
 ## Step 3: Install kubectl
 
 > ℹ️ **Explanation:**  
-> You’ll need the AWS CLI to interact with AWS services (like EKS, EFS, IAM) programmatically from your terminal.
+ Kubectl interact with EKS apis programmatically from your terminal.
 
 ```bash 
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.6/2023-01-30/bin/linux/amd64/kubectl
