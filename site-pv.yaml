@@ -1,0 +1,15 @@
+apiVersion: v1 
+kind: PersistentVolume
+metadata:
+  name: site-pv
+spec:
+  capacity:
+    storage: 5Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteMany              
+  persistentVolumeReclaimPolicy: Retain # Retain policy to keep the volume after PVC deletion
+  storageClassName: site-sc # must match the StorageClass defined in site-storageclass.yaml
+  csi:
+    driver: efs.csi.aws.com
+    volumeHandle: fs-04573f02800455565::fsap-009750f838ef2652b # Replace with your EFS file system ID::access point ID

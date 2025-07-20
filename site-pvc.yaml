@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: PersistentVolumeClaim
+metadata:
+  name: site-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 5Gi # Must match the capacity defined in site-pv.yaml
+  storageClassName: site-sc # must match the StorageClass defined in site-storageclass.yaml
