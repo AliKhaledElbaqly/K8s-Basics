@@ -466,7 +466,7 @@ Open browser:
 ```bash
 kubectl delete -f deploysite-project
 eksctl delete cluster --name project-eks
-
+```
 ---
 
 ## Created By
