@@ -1,0 +1,18 @@
+# Treat these as documentation or non-source
+*.md linguist-documentation
+*.txt linguist-documentation
+*.rst linguist-documentation
+
+# Treat these as vendored (excluded from language stats)
+*.py linguist-vendored
+*.js linguist-vendored
+*.ts linguist-vendored
+*.json linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+
+# Explicitly include shell scripts
+*.sh linguist-language=Shell
+*.bash linguist-language=Shell
