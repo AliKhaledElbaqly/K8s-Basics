@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Bash](https://img.shields.io/badge/language-Bash-blue.svg)
+![YAML](https://img.shields.io/badge/language-YAML-blue.svg)
+
 # 🚀 Deploying a WordPress Site with MySQL on AWS using EKS
 
 > High availability, scalability, and simplicity — all in one Kubernetes-powered project.
